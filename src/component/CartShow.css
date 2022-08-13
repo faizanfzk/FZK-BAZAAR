@@ -1,0 +1,21 @@
+.show{
+    display:flex;
+  flex-wrap: wrap;
+  width: 100%;
+ 
+  justify-content: space-between;
+  padding: 5%;
+  margin: auto;
+  color: greenyellow;
+  
+   background-color:black;
+  }
+  .classShow{
+    display:flex;
+  
+      margin:0px;
+      padding: 0px;
+      /* background-image: url("https://i.etsystatic.com/28966542/r/il/094631/3992790865/il_1140xN.3992790865_6eq1.jpg"); */
+      width: 30%;
+      /* height: 100vh; */
+  }
