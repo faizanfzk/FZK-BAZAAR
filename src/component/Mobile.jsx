@@ -55,7 +55,8 @@ export const Mobile = () => {
                 })
     
         }
-  return (<>
+  return (
+  <div className='highest'>
    <h6>Sort By Price</h6>
      <select w={"150px"} pl={"8px"} value={sort} onChange={handleSort}>
 
@@ -90,6 +91,6 @@ export const Mobile = () => {
     <button  type="button" class="btn btn-secondary"disabled={(page==1)} onClick={()=>setPage(page-1)}>Previous</button>
     <button type="button" class="btn btn-secondary" onClick={()=>setPage(page+1)}>Next</button>
     </div>
-    </>
+    </div>
   )
 }

@@ -71,8 +71,8 @@ export const Products = () => {
 
 
     return (
-        <>
-            <h6>Sort By Price</h6>
+        <div className='high'>
+            <h6 style={{color:"white"}}>Sort By Price</h6>
             <select w={"150px"} pl={"8px"} value={sort} onChange={handleSort}>
 
                 <option value='asc'>Low to High</option>
@@ -107,6 +107,6 @@ export const Products = () => {
                 <button type="button" class="btn btn-secondary" disabled={(page == 1)} onClick={() => setPage(page - 1)}>Previous</button>
                 <button type="button" class="btn btn-secondary" disabled={(page == Math.ceil(totalData.length / limit))} onClick={() => setPage(page + 1)}>Next</button>
             </div>
-        </>
+        </div>
     )
 }

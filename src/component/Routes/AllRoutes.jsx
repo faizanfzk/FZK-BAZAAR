@@ -12,6 +12,7 @@ import { CartShow } from '../CartShow'
 import { SingleMobile } from '../Single/SingleMobile'
 import { SingleElectronics } from '../Single/SingleElectronics'
 import { SingleCompete } from '../Single/SingleCompete'
+import { Footer } from '../Footer'
 
 export const AllRoutes = () => {
   return (
@@ -31,7 +32,7 @@ export const AllRoutes = () => {
             
             <Route path="/cart" element={<CartShow/>}/>
         </Routes>
-        
+        <Footer/>
     </div>
   )
 }

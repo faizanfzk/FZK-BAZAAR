@@ -1,8 +1,13 @@
+.highest{
+width: 100%;
+background-color: rgb(77, 126, 126);
+}
+
 .containers{
     display:grid;
     grid-template-columns:repeat(4,1fr);
     justify-content: space-around;
-
+width: 100%;
     gap:40px;
   
     margin-top: 5%;

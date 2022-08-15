@@ -1,0 +1,29 @@
+.Main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(109, 150, 104);
+    margin-bottom: 4%;
+    
+}
+.Main img{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    padding-top: 5%;
+    margin-top: 50%;
+
+   
+}
+.name{
+    text-align: center;
+    padding: 20px;
+    color: teal;
+    font-style: italic;
+ 
+  font-size: 23px;
+
+}

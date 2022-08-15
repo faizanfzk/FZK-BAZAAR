@@ -1,8 +1,10 @@
 import React from 'react'
-
+import { HomeProducts } from './HomeProducts'
+import { HNews } from './NewsLetter'
+import "./Home.css"
 export const Home = () => {
   return (
-    <div>
+    <div className='imp'>
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -11,14 +13,14 @@ export const Home = () => {
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://rukminim1.flixcart.com/fk-p-flap/844/140/image/48f20419e2eb62ce.jpg?q=50" class="d-block w-100" alt="..."/>
+      <img style={{height:"400px"}} src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/WLA/July/PFS_Unrechero/D50756151_WLA_GW_Heroes_Unrec__Tall_Hero_3000x1200._CB632954420_.jpg"class="d-block w-100 " alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src="https://rukminim1.flixcart.com/fk-p-flap/50/50/image/1ddffc77b3ddefe5.jpeg?q=50" class="d-block w-100" alt="..."/>
+      <img style={{height:"400px"}} src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wearables/Unrec/GW/August/Unrec_DesktopTallHero_3000x1200._CB630557043_.jpg" class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src="" class="d-block w-100" alt="..."/>
-    </div>
+      <img style={{height:"400px"}} src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/HomeImprovement/AugART/Landing/3000x1200._CB629216944_.jpg"  class="d-block w-100" alt="..."/>
+    </div> 
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -29,6 +31,8 @@ export const Home = () => {
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+<HNews/>
+<HomeProducts/>
     </div>
   )
 }

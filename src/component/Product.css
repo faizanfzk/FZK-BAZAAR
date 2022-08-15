@@ -1,8 +1,18 @@
+
+.high{
+    width: 100%;
+background-color: black;
+    object-fit: fill;
+}
+
 .container{
 display:grid;
 grid-template-columns:repeat(4,1fr);
 margin-top: 5%;
 gap:20px;
+width: 100%;
+
+
 
 }
 .subContain{
@@ -10,14 +20,19 @@ gap:20px;
     line-height: 20px;
     height:300px;
     padding-bottom: 35%;
+    margin-bottom: 15%;
 }
 .image{
-height:100%;
-width: 80%;
-
+    height:100%;
+    width: 80%;
+    padding-left: 50px;
+    
 }
 .btn{
     height: 30%;
+    color: white;
+    margin-left: 30px;
+    
 
 }
 .buttonClass{

@@ -1451,7 +1451,7 @@
     },
     {
       "id": 23,
-      "title": "Examcart Latest Complete General English Book For All Government & Competitive Exams (Bank, SSC, Defense,",
+      "title": "Examcart  Complete General English Book",
       "author": "by R S Aggarwal  | 21 February 2017",
       "category": "books",
       "type": "comptetive exam",
@@ -1462,7 +1462,7 @@
     },
     {
       "id": 24,
-      "title": "English for Competitive Examinations(Includes Descriptive and Objective Tests)",
+      "title": "English for Competitive Examinations",
       "author": "by Wren & Martin | 25 September 2020",
       "category": "books",
       "type": "comptetive exam",
@@ -1473,7 +1473,7 @@
     },
     {
       "id": 25,
-      "title": "Rapidfire General Knowledge 2022 for Competitive Exams 4th Edition",
+      "title": "Rapidfire General Knowledge 2022 for Competitive Exams ",
       "author": "by Disha Experts | 1 November 2021",
       "category": "books",
       "type": "comptetive exam",
@@ -1484,7 +1484,7 @@
     },
     {
       "id": 26,
-      "title": "General Reasoning Ability for Competitive Exams - SSC/Banking/Defence/Railway/Insurance",
+      "title": "General Reasoning Ability for Competitive Exams ",
       "author": "by Disha Experts | 1 November 2021",
       "category": "books",
       "type": "comptetive exam",
@@ -1517,7 +1517,7 @@
     },
     {
       "id": 29,
-      "title": "World’s Greatest Books For Personal Growth & Wealth (Set of 4 Books): Perfect Motivational Gift Set",
+      "title": "World’s Greatest Books For Personal Growth & Wealth",
       "author": "by S.C. Gupta  | 1 January 2016",
       "category": "books",
       "type": "comptetive exam",
@@ -1528,7 +1528,7 @@
     },
     {
       "id": 30,
-      "title": "Principles of Indian Geography (English | 1st Edition) For UPSC CSE Prelims & Mains by Study IQ",
+      "title": "Principles of Indian Geography",
       "author": "by StudyIQ Publications | 18 May 2022",
       "category": "books",
       "type": "comptetive exam",
@@ -1539,7 +1539,7 @@
     },
     {
       "id": 31,
-      "title": "28 Years UPSC Civil Services IAS Prelims Topic-wise Solved Papers 1 & 2 (1995 - 2022) 13th Edition",
+      "title": "28 Years UPSC Civil Services  Solved Papers ",
       "author": "by Mrunal Patel | 17 June 2022",
       "category": "books",
       "type": "comptetive exam",
@@ -1550,7 +1550,7 @@
     },
     {
       "id": 32,
-      "title": "UPSC IAS/IPS Civil Service EXAM PRELIMS and MAINS 2023 410 DAYS Full Detailed Topper TIMETABLE: Month-",
+      "title": "UPSC IAS/IPS Civil Service EXAM PRELIMS and MAINS",
       "author": "by Disha Patel  | 12 March 2022",
       "category": "books",
       "type": "comptetive exam",
@@ -1561,7 +1561,7 @@
     },
     {
       "id": 33,
-      "title": "28 Years UPSC Civil Services IAS Prelims Topic-wise Solved Papers 1 & 2 (1995 - 2022) 13th Edition",
+      "title": "28 Years UPSC Civil Services IAS Prelims n",
       "author": "by Mrunal Patel | 1 October 2021",
       "category": "books",
       "type": "comptetive exam",
@@ -1572,7 +1572,7 @@
     },
     {
       "id": 34,
-      "title": "27 Years UPSC IAS/ IPS Prelims Topic-wise Solved Papers 1 & 2 (1995 - 2021) 12th Edition",
+      "title": "27 Years UPSC IAS/ IPS Prelims Topic-wise Solved Papers ",
       "author": "by Mrunal Patel | 1 October 2021",
       "category": "books",
       "type": "comptetive exam",
@@ -1627,7 +1627,7 @@
     },
     {
       "id": 39,
-      "title": "Indian Economy (English| 14th Edition) | UPSC | Civil Services Exam | State Administrative Exams",
+      "title": "Indian Economy (English| 14th Edition)",
       "author": "by Ramesh Singh  | 1 May 2022",
       "category": "books",
       "type": "comptetive exam",
@@ -2221,32 +2221,18 @@
   ],
   "cart": [
     {
-      "image": "https://m.media-amazon.com/images/I/91kAtEXPIeL._AC_UY218_.jpg",
-      "title": "Redmi 9 Activ (Coral Green, 4GB RAM, 64GB Storage)",
-      "author": "Redmi",
-      "price": 8999,
-      "id": 5
-    },
-    {
-      "image": "https://m.media-amazon.com/images/I/719sf-DtkvL._AC_UY218_.jpg",
-      "title": "boAt Bassheads 152 in Ear Wired Earphones with Mic(taffy Pink)",
-      "author": "BoAt",
-      "price": 1000,
-      "id": 6
-    },
-    {
-      "image": "https://m.media-amazon.com/images/I/71QjDzeNPeL._AC_UY218_.jpg",
-      "title": "Examcart Latest Complete General English Book For All Government & Competitive Exams (Bank, SSC, Defense,",
-      "author": "by R S Aggarwal  | 21 February 2017",
-      "price": 279,
-      "id": 7
-    },
-    {
       "image": "https://m.media-amazon.com/images/I/61ST4CMWEKL._AC_UY218_.jpg",
       "title": "vivo iQOO Z6 44W (Raven Black, 6GB RAM, 128GB Storage) | 44W FlashCharge + 5000mAh Battery | FHD+",
       "author": "vivo",
       "price": 11999,
       "id": 9
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/81CVO-oQ5GL._AC_UY218_.jpg",
+      "title": "Quantitative Aptitude for Competitive Examinations",
+      "author": "by R. S Aggarwal  | 10 April 2022",
+      "price": 379,
+      "id": 10
     }
   ]
 }
