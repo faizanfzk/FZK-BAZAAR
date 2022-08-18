@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "json-server": "json-server --watch db.json --port 8080",
-    "dev": "node server.js",
-    "build": "vite build",
+    "dev":"react-scripts start",
+    "start": "node server.js",
+    "build": "react-scripts build",
     "preview": "vite preview"
   
   },
