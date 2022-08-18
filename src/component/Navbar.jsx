@@ -1,7 +1,13 @@
 import React from 'react'
-import {NavLink} from "react-router-dom"
+import {NavLink,Link,useNavigate} from "react-router-dom"
+import { useAuth } from './context/Auth';
 export const Navbar = () => {
-
+  const auth = useAuth();
+  const navigate = useNavigate();
+  const handlelogout = () => {
+    auth.logout();
+    navigate("/");
+  };
   return (
     <nav className="navbar navbar-expand-lg bg-dark">
     <div className="container-fluid">
@@ -26,7 +32,17 @@ export const Navbar = () => {
          
          
          </ul>
-         
+         <div style={{color:"white"}}>
+          <Link to="/signup" style={{ marginRight: "50px" }}>
+            Signup
+          </Link>
+
+          {!auth.user ? (
+            <Link to="/login">LogIn</Link>
+          ) : (
+            <button onClick={handlelogout}>Logout</button>
+          )}
+        </div>
         {/* <form className="d-flex" role="search">
           <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
           <button className="btn btn-outline-success" type="submit"  style={{color:"white"}}>Search</button>

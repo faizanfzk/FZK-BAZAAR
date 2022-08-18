@@ -5,6 +5,7 @@ export const HomeProducts = () => {
   return (
     <div>
         <div className='Main'>
+        
         <div>
         <Link to="/Electronics"><img src='https://m.media-amazon.com/images/I/61l+14s5QVL._AC_UY218_.jpg'/></Link>
         <h2 className='name'>Earphone</h2>
