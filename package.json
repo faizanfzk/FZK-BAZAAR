@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "json-server": "json-server --watch db.json --port 8080",
-    "dev": "vite",
+    "dev": "node server.js",
     "build": "vite build",
-    "preview": "vite preview",
-    "start":"node server.js"
+    "preview": "vite preview"
+  
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.8",
