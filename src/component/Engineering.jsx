@@ -25,7 +25,7 @@ export const Compete = () => {
             setLoading(true)
             console.log("hello")
             axios({
-                url:` http://localhost:8080/compete`,
+                url:`https://fzk-bazaar1.herokuapp.com/compete`,
                 method:"GET",
                 params:{
                     _page:page,
@@ -43,7 +43,7 @@ export const Compete = () => {
             })
         }
         const getTotal=()=>{
-            axios.get(`http://localhost:8080/compete`)
+            axios.get(` https://fzk-bazaar1.herokuapp.com/compete`)
             .then((res)=>setTotal(res.data))
         }
 
@@ -60,7 +60,7 @@ export const Compete = () => {
                 const obj = { image: data.image, title: data.title, author: data.author, price: data.price }
                 // console.log(obj.title)
         
-                axios.post(`http://localhost:8080/cart`, obj)
+                axios.post(` https://fzk-bazaar1.herokuapp.com/cart`, obj)
                     .then((res) => {
                         setCart(res.cart)
                     })

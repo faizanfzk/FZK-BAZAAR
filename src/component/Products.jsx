@@ -31,7 +31,7 @@ export const Products = () => {
         setLoading(true)
         console.log("hello")
         axios({
-            url: `http://localhost:8080/homebooks`,
+            url: ` https://fzk-bazaar1.herokuapp.com/homebooks`,
             method: "GET",
             params: {
                 _page: page,
@@ -55,7 +55,7 @@ export const Products = () => {
         const obj = { image: data.image, title: data.title, author: data.author, price: data.price }
         // console.log(obj.title)
 
-        axios.post(`http://localhost:8080/cart`, obj)
+        axios.post(` https://fzk-bazaar1.herokuapp.com/cart`, obj)
             .then((res) => {
                 setCart(res.cart)
             })
@@ -65,7 +65,7 @@ export const Products = () => {
 
     }
     const getTotal = () => {
-        axios.get(`http://localhost:8080/homebooks`)
+        axios.get(` https://fzk-bazaar1.herokuapp.com/homebooks`)
             .then((res) => setTotal(res.data))
     }
 

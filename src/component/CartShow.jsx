@@ -9,13 +9,13 @@ export const CartShow = () => {
     },[])
 
     const cartItem=()=>{
-        axios.get(`http://localhost:8080/cart`)
+        axios.get(` https://fzk-bazaar1.herokuapp.com/cart`)
         .then((res)=>setData(res.data))
         .catch((err)=>console.log(err))
     }
  
     const handleDelete=(id)=>{
-        axios.delete(`http://localhost:8080/cart/${id}`)
+        axios.delete(` https://fzk-bazaar1.herokuapp.com/cart/${id}`)
         cartItem()
     }
 

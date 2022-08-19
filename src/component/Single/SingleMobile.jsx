@@ -13,7 +13,7 @@ export const SingleMobile = () => {
 
     }, [])
     let getSingleData = () => {
-        axios.get(`http://localhost:8080/mobile/${id}`)
+        axios.get(` https://fzk-bazaar1.herokuapp.com/mobile/${id}`)
             .then((res) => {
                 setData(res.data)
             })
@@ -27,7 +27,7 @@ export const SingleMobile = () => {
         const obj = { image: data.image, title: data.title, author: data.author, price: data.price }
         // console.log(obj.title)
 
-        axios.post(`http://localhost:8080/cart`, obj)
+        axios.post(` https://fzk-bazaar1.herokuapp.com/cart`, obj)
             .then((res) => {
                 setCart(res.cart)
             })

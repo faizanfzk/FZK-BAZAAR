@@ -24,7 +24,7 @@ export const Mobile = () => {
             setLoading(true)
             console.log("hello")
             axios({
-                url:` http://localhost:8080/mobile`,
+                url:` https://fzk-bazaar1.herokuapp.com/mobile`,
                 method:"GET",
                 params:{
                     _page:page,
@@ -46,7 +46,7 @@ export const Mobile = () => {
             const obj = { image: data.image, title: data.title, author: data.author, price: data.price }
             // console.log(obj.title)
     
-            axios.post(`http://localhost:8080/cart`, obj)
+            axios.post(` https://fzk-bazaar1.herokuapp.com/cart`, obj)
                 .then((res) => {
                     setCart(res.cart)
                 })

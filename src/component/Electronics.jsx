@@ -24,7 +24,7 @@ export const Electronics = () => {
             setLoading(true)
             console.log("hello")
             axios({
-                url:` http://localhost:8080/productelctronics`,
+                url:`  https://fzk-bazaar1.herokuapp.com/productelctronics`,
                 method:"GET",
                 params:{
                     _limit:8,
@@ -47,7 +47,7 @@ export const Electronics = () => {
             const obj = { image: data.image, title: data.title, author: data.author, price: data.price }
             // console.log(obj.title)
     
-            axios.post(`http://localhost:8080/cart`, obj)
+            axios.post(` https://fzk-bazaar1.herokuapp.com/cart`, obj)
                 .then((res) => {
                     setCart(res.cart)
                 })

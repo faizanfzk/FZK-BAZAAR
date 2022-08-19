@@ -14,7 +14,7 @@ export const SingleElectronics = () => {
 
     }, [])
     let getSingleData = () => {
-        axios.get(`http://localhost:8080/productelctronics/${id}`)
+        axios.get(` https://fzk-bazaar1.herokuapp.com/productelctronics/${id}`)
             .then((res) => {
                 setData(res.data)
             })
@@ -28,7 +28,7 @@ export const SingleElectronics = () => {
         const obj = { image: data.image, title: data.title, author: data.author, price: data.price }
         // console.log(obj.title)
 
-        axios.post(`http://localhost:8080/cart`, obj)
+        axios.post(` https://fzk-bazaar1.herokuapp.com/cart`, obj)
             .then((res) => {
                 setCart(res.cart)
             })
