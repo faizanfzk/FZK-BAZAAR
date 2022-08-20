@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start":"node server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.8",
@@ -19,6 +19,7 @@
     "json-server": "^0.17.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0"
   },
   "devDependencies": {

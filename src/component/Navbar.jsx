@@ -1,6 +1,9 @@
 import React from 'react'
 import {NavLink,Link,useNavigate} from "react-router-dom"
 import { useAuth } from './context/Auth';
+import { BsCart3 } from 'react-icons/bs';
+import{ Icon,
+} from "@chakra-ui/react";
 export const Navbar = () => {
   const auth = useAuth();
   const navigate = useNavigate();
@@ -9,7 +12,7 @@ export const Navbar = () => {
     navigate("/");
   };
   return (
-    <nav className="navbar navbar-expand-lg bg-dark">
+    <nav className="navbar navbar-expand-lg bg-dark" style={{width:"100%"}}>
     <div className="container-fluid">
       < NavLink to="/" className="navbar-brand" style={{color:"yellowgreen",fontSize:"30px",fontStyle:"italic",fontWeight:"bold"}} >FZK-BAZAAR</NavLink>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,6 +36,10 @@ export const Navbar = () => {
          
          </ul>
          <div style={{color:"white"}}>
+          <Link to="/cart">
+         <Icon as={BsCart3} boxSize="2rem" mr={10}/>
+         </Link>
+
           <Link to="/signup" style={{ marginRight: "50px" }}>
             Signup
           </Link>
