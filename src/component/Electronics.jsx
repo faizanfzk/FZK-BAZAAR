@@ -12,6 +12,7 @@ import {
     Text,
     Stack,
     Image,
+    Button
   } from '@chakra-ui/react';
 
 
@@ -54,7 +55,7 @@ export const Electronics = () => {
         }
 
         let cartData = (data) => {
-            console.log("data", data)
+            console.log("data", data[0].image)
             const obj = { image: data.image, title: data.title, author: data.author, price: data.price }
             // console.log(obj.title)
     
@@ -83,7 +84,7 @@ export const Electronics = () => {
         {data.map((e,id)=>{
             return(
                 <Center py={12}>
-                <Box
+                <Box h={"450px"}
                   role={'group'}
                   p={6}
                   maxW={'330px'}
@@ -106,7 +107,7 @@ export const Electronics = () => {
                       pos: 'absolute',
                       top: 5,
                       left: 0,
-                      backgroundImage: `url(${e.image})`,
+                      
                       filter: 'blur(15px)',
                       zIndex: -1,
                     }}
@@ -118,26 +119,39 @@ export const Electronics = () => {
                     <Image
                       rounded={'lg'}
                       height={200}
+                      pt={8}
                       width={202}
                       objectFit={'cover'}
                       src={e.image}
                     />
                   </Box>
+                  
                   <Stack pt={10} align={'center'}>
+                    <Box height={"100px"} >
                     <Text color={'gray.500'} fontSize={'sm'} textTransform={'uppercase'}>
+                      
                      {e.title}
                     </Text>
-                    
+                    </Box>
                     <Stack direction={'row'} align={'center'}>
+                      <Box display={"flex"} justifyContent={"space-around"}>
+                        <Text fontWeight={800} fontSize={'xl'}>Price : </Text>
                       <Text fontWeight={800} fontSize={'xl'}>
                         ${e.price}
                       </Text>
-                     
+                      </Box>
                     </Stack>
                   </Stack>
-                  <button onClick={()=>navigate(`/electronics/${e.id}`)} type="button" class="btn btn-primary">View</button>
-                   <button onClick={()=>cartData(data)} type="button" class="btn btn-success">Add Cart</button>
+              
+             <Box display={"flex"} justifyContent={"space-around"} flexWrap={"wrap"} mt={"15px"}>
+                <Button onClick={()=>navigate(`/electronics/${e.id}`)} bg={"teal"}  >View</Button>
+              
+                   <Button onClick={()=>cartData(data)} bg={"black"} color={"yellowgreen"}>Add Cart</Button>
+                
+                   </Box> 
+               
                 </Box>
+                
               </Center>
                  
                  

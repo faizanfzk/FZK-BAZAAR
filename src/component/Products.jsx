@@ -132,7 +132,7 @@ export const Products = () => {
                               pos: 'absolute',
                               top: 5,
                               left: 0,
-                              backgroundImage: `url(${e.image})`,
+                             
                               filter: 'blur(15px)',
                               zIndex: -1,
                             }}

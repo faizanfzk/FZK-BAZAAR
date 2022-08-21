@@ -12,7 +12,8 @@ export const Navbar = () => {
     navigate("/");
   };
   return (
-    <nav className="navbar navbar-expand-lg bg-dark" style={{width:"100%"}}>
+    <div style={{width:"100%"}}>
+    <nav className="navbar navbar-expand-lg bg-dark" >
     <div className="container-fluid">
       < NavLink to="/" className="navbar-brand" style={{color:"yellowgreen",fontSize:"30px",fontStyle:"italic",fontWeight:"bold"}} >FZK-BAZAAR</NavLink>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,5 +58,6 @@ export const Navbar = () => {
       </div>
     </div>
   </nav>
+  </div>
   )
 }

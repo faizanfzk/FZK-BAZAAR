@@ -1,9 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./HomeProduct.css"
+import { Navbar } from './Navbar'
 export const HomeProducts = () => {
   return (
     <div>
+    
         <div className='Main'>
         
         <div>
